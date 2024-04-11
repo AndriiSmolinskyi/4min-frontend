@@ -1,1 +1,1 @@
-export const apiHost = "https://4min-backend-blond.vercel.app//api/";
+export const apiHost = "https://4min-backend-blond.vercel.app/api/";
