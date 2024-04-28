@@ -9,6 +9,7 @@ import { Loading } from "../Loading/Loading";
 import { useState } from "react";
 import { Header } from "../Header/Header";
 import { apiHost } from "../../apiHost";
+import "./Home.scss"
 
 export const Home = () => {
     const { user } = useContext(UserContext)
