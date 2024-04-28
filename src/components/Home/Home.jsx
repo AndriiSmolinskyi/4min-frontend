@@ -46,7 +46,12 @@ export const Home = () => {
             </div>
         );
     } else {
-        return <Loading>Очікуйте коли вас додадуть до групи, коли вас добавлять до групи</Loading>;
+        return (<div>
+            <p className="wait__text">Очікуйте коли вас додадуть до групи, коли вас добавлять до групи</p>
+            <Loading></Loading>
+        </div>
+        );
+        
     }
 
 }
