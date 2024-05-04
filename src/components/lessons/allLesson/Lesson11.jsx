@@ -1,5 +1,9 @@
 import "./Lesson.scss";
 import { LessonBtn } from "./LessonBtn";
+import first from "./Lesson11_img/first.png"
+import second from "./Lesson11_img/second.png"
+import third from "./Lesson11_img/third.png"
+import four from "./Lesson11_img/four.png"
 
 export const Lesson11 = ( {lessonId, groupId} ) => {
 
@@ -18,6 +22,10 @@ export const Lesson11 = ( {lessonId, groupId} ) => {
                         <a className="link" target="blank" href="https://appitventures.com/blog/styling-checkbox-css-tips">Посилання</a>
                         <a className="link" target="blank" href="https://css-tricks.com/almanac/properties/c/cursor/">Посилання</a>
                         <a className="link" target="blank" href="https://www.w3schools.com/howto/howto_css_custom_checkbox.asp">Посилання</a>
+                        <img src={first} alt="#" className="img"/>   
+                        <img src={second} alt="#" className="img"/>   
+                        <img src={third} alt="#" className="img"/>   
+                        <img src={four} alt="#" className="img"/>      
                     </div>
                 </div>
 
