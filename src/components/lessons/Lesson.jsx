@@ -181,7 +181,7 @@ export const Lesson = (  ) => {
                         {selectedLesson === 38 && <Lesson38 lessonId={38} groupId={currentGroup}/>}
                         {selectedLesson === 39 && <Lesson39 lessonId={39} groupId={currentGroup}/>}
                         {selectedLesson === 40 && <Lesson40 lessonId={40} groupId={currentGroup}/>}
-                        {selectedLesson === 41 && <Lesson40 lessonId={41} groupId={currentGroup}/>}
+                        {selectedLesson === 41 && <Lesson41 lessonId={41} groupId={currentGroup}/>}
                         {selectedLesson === 42 && <Lesson42 lessonId={42} groupId={currentGroup}/>}
                         {selectedLesson === 43 && <Lesson43 lessonId={43} groupId={currentGroup}/>}
                     </div>
